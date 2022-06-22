@@ -2,6 +2,7 @@
   "name": "projectrk012",
   "version": "0.1.0",
   "private": true,
+  "description": "To create an image with react-Konva",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -10,6 +11,7 @@
     "react-dom": "^18.2.0",
     "react-konva": "^18.1.1",
     "react-scripts": "5.0.1",
+    "use-image": "^1.0.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

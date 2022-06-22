@@ -1,19 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Stage, Layer, RegularPolygon } from "react-konva";
+import { Stage, Layer, Image, Text } from "react-konva";
+import useImage from "use-image";
 const App = () => {
+  const url = "https://konvajs.org/assets/yoda.jpg";
+  const [image] = useImage(url);
   return (
     <Stage width={window.innerWidth} height={window.innerHeight}>
       <Layer>
-        <RegularPolygon
-          x={150}
-          y={150}
-          sides={6}
-          radius={70}
-          fill={"red"}
-          stroke={"black"}
-          strokeWidth={4}
-        />
+        <Text text={"sanaz"} />
+        <Image src={image} />
       </Layer>
     </Stage>
   );
